@@ -1,0 +1,822 @@
+.head-social {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 255px;
+  right: 0;
+  z-index: 1999;
+}
+.head-social .tt-link {
+  background-color: rgb(0, 0, 0);
+  transition: all 0.2s;
+  padding: 2px;
+  border-top-left-radius: 10px;
+}
+.head-social .tt-link img {
+  display: flex;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+}
+.head-social .tt-link:hover {
+  background: rgb(105, 201, 208);
+  background: linear-gradient(90deg, rgb(105, 201, 208) 35%, rgb(0, 0, 0) 48%, rgb(238, 29, 82) 60%);
+  transform: scale(1.2);
+}
+.head-social .ig-link {
+  border-top-left-radius: 10px;
+  padding: 2px;
+  margin-top: 5px;
+  background-color: rgb(0, 0, 0);
+  transition: all 0.2s;
+}
+.head-social .ig-link img {
+  display: flex;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+}
+.head-social .ig-link:hover {
+  background: rgb(214, 41, 118);
+  background: linear-gradient(90deg, rgb(214, 41, 118) 35%, rgb(150, 47, 191) 60%);
+  transform: scale(1.2);
+}
+.head-social .lin-link {
+  border-top-left-radius: 10px;
+  padding: 2px;
+  margin-top: 5px;
+  background-color: rgb(0, 0, 0);
+  transition: all 0.2s;
+}
+.head-social .lin-link img {
+  display: flex;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+}
+.head-social .lin-link:hover {
+  background: blue;
+  transform: scale(1.2);
+}
+
+.modal {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10000000000000000;
+  padding-bottom: 20px;
+}
+.modal img {
+  width: 80vw;
+}
+.modal .close {
+  position: absolute;
+  top: 150px;
+  right: 10px;
+  font-size: 44px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.modal2 {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10000000000000000;
+  padding-bottom: 20px;
+}
+.modal2 img {
+  width: 80vw;
+}
+.modal2 .close2 {
+  position: absolute;
+  top: 5vh;
+  right: 5px;
+  font-size: 44px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.modal3 {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10000000000000000;
+  padding-bottom: 20px;
+}
+.modal3 img {
+  width: 80vw;
+}
+.modal3 .close3 {
+  position: absolute;
+  top: 5vh;
+  right: 5px;
+  font-size: 44px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.become-instructor .sits-head {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Wix Madefor Display", sans-serif;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.become-instructor .sits-head h1 {
+  font-size: 22px;
+  order: 2;
+  font-family: "Wix Madefor Display", sans-serif;
+  color: #000000;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.become-instructor .sits-head h2 {
+  color: #000000;
+  font-family: "Bely Display", sans-serif;
+  font-size: 65px;
+  order: 1;
+  font-weight: 800;
+}
+.become-instructor .sits-head p {
+  font-size: 22px;
+  order: 3;
+}
+.become-instructor .show-details {
+  display: flex;
+  justify-content: center;
+  transition: all 0.4s;
+}
+.become-instructor .show-details .show-details-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  padding: 6px;
+  font-size: 19px;
+  background: rgb(213, 226, 235);
+  font-weight: 400;
+  font-family: "Wix Madefor Display", sans-serif;
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgb(213, 226, 235)), color-stop(0%, rgb(205, 223, 233)), color-stop(100%, rgb(255, 255, 255)));
+  background: linear-gradient(to right, rgb(213, 226, 235) 0%, rgb(205, 223, 233) 0%, rgb(255, 255, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#d5e2eb", endColorstr="#ffffff", GradientType=1 );
+  border: none;
+  box-shadow: 0px 0px 5px #cddfe9;
+  cursor: pointer;
+  width: 30%;
+  border-top-left-radius: 20px;
+  border-right: none;
+  transition: all 0.8s;
+  height: 65px;
+  color: black;
+  font-weight: 600;
+}
+.become-instructor .show-details:hover {
+  transform: scale(0.9);
+}
+.become-instructor .show-details:hover .show-details-btn {
+  background: none;
+  border: 1px solid black;
+  color: black;
+  box-shadow: 18px 21px 0px 1px #cddfe9;
+}
+.become-instructor .programm-block {
+  margin: 15px;
+  padding-bottom: 55px;
+  box-shadow: 0px 0px 15px #cddfe9;
+  border-top-left-radius: 20px;
+  font-family: "Wix Madefor Display", sans-serif;
+  margin-left: 22px;
+  margin-right: 22px;
+  margin-top: 25px;
+}
+.become-instructor .programm-block .all-blocks .image-block {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.become-instructor .programm-block .all-blocks .image-block-medium {
+  display: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.become-instructor .programm-block .all-blocks .image-block-xl {
+  display: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.become-instructor .programm-block .all-blocks .img-container {
+  border-top-left-radius: 20px;
+}
+.become-instructor .programm-block .all-blocks .img-container .image-block-xl-two {
+  display: none;
+  border-top-left-radius: 20px;
+}
+.become-instructor .programm-block .all-blocks .blocks-content {
+  max-height: 350px;
+  overflow: auto;
+  padding: 10px;
+  padding-top: 0;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .top-row {
+  display: none;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .details-info {
+  padding: 15px;
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+.become-instructor .programm-block .all-blocks .blocks-content .details-info .title-programm {
+  margin-bottom: 10px;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .details-info .title-programm h2 {
+  color: #000000;
+  font-size: 22px;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .details-info .options-programm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .details-info .options-programm .date-where .place {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .details-info .options-programm .date-where .date {
+  margin-bottom: 17px;
+  font-size: 22px;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .details-info .options-programm .link-to-shop {
+  text-decoration: none;
+  padding: 8px;
+  color: black;
+  background-color: #0097d0;
+  font-size: 19px;
+  color: white;
+  text-align: center;
+  border-top-left-radius: 15px;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .details-info .options-programm .link-to-shop:hover {
+  transform: scale(0.85);
+  background-color: white;
+  border: 1px solid black;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  padding-top: 0;
+  font-size: 19px;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programm .images-resort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programm .images-resort .zoom-map {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programm .images-resort .zoom-map p {
+  margin-top: -20px;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programm .link-to-resort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programm .link-to-resort a {
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: 19px;
+  color: black;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programm .link-to-resort:nth-child(2) {
+  margin-bottom: 35px;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programm .dscrb-resort {
+  margin-top: 18px;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programm .dscrb-resort p {
+  color: black;
+  font-size: 19px;
+  margin-bottom: 11px;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programms {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 15px;
+  padding-top: 0;
+  font-size: 19px;
+  height: 100%;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programms .table-days {
+  margin: 20px 0;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programms .table-days p {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-style: italic;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programms .table-days table {
+  margin-bottom: 20px;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programms .table-days table,
+.become-instructor .programm-block .all-blocks .blocks-content .description-programms .table-days th,
+.become-instructor .programm-block .all-blocks .blocks-content .description-programms .table-days td {
+  width: 100%;
+  border: 1px solid black;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programms .table-days table tr {
+  display: flex;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programms .table-days table tr td {
+  width: 158.24px;
+  padding: 3px;
+}
+.become-instructor .programm-block .all-blocks .blocks-content .description-programms .description-programms-txt {
+  padding-bottom: 20px;
+}
+.become-instructor .programm-block .all-blocks .buttons-to-slider {
+  position: relative;
+  top: -70px;
+  display: flex;
+  justify-content: center;
+}
+.become-instructor .programm-block .all-blocks .buttons-to-slider .left-btn,
+.become-instructor .programm-block .all-blocks .buttons-to-slider .right-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+}
+.become-instructor .programm-block .all-blocks .buttons-to-slider .left-btn button,
+.become-instructor .programm-block .all-blocks .buttons-to-slider .right-btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  border: none;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.become-instructor .programm-block .all-blocks .buttons-to-slider .left-btn .btn-dscrb,
+.become-instructor .programm-block .all-blocks .buttons-to-slider .right-btn .btn-dscrb {
+  text-align: center;
+  margin-top: 3px;
+  color: white;
+}
+.become-instructor .name-programm {
+  position: relative;
+  margin-top: 60px;
+  font-size: 22px;
+  font-family: "Bely Display", sans-serif;
+  text-align: center;
+  color: #0097d0;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.why-powpow {
+  font-family: "Wix Madefor Display", sans-serif;
+  margin-top: 85px;
+  display: flex;
+  flex-direction: column;
+}
+.why-powpow .why-content {
+  order: 2;
+  margin-top: -70px;
+  margin-left: 10px;
+  margin-left: 17px;
+  margin-right: 17px;
+  background-color: rgba(255, 255, 255, 0.875);
+  border: 0.5px solid black;
+  border-top-left-radius: 20px;
+}
+.why-powpow .why-content .why-head-mob {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 9px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  color: #0097d0;
+  letter-spacing: 1px;
+  font-family: "Bely Display", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.why-powpow .why-content .why-head-desk {
+  display: none;
+}
+.why-powpow .why-content p {
+  font-size: 19px;
+  padding: 0 7px;
+  padding-bottom: 12px;
+  background-color: white;
+}
+.why-powpow .why-content .why-img-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 20px;
+}
+.why-powpow .why-content .why-img-content img {
+  width: 28%;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.why-powpow .why-content .check-our-lessons {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+.why-powpow .why-content .check-our-lessons .link-to-sits-shop {
+  display: flex;
+  align-items: center;
+  font-family: "Wix Madefor Display", sans-serif;
+  padding: 15px 30px;
+  border: 1px solid black;
+  border-top-left-radius: 20px;
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgb(213, 226, 235)), color-stop(0%, rgb(205, 223, 233)), color-stop(100%, rgb(255, 255, 255)));
+  background: linear-gradient(to right, rgb(213, 226, 235) 0%, rgb(205, 223, 233) 0%, rgb(255, 255, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#d5e2eb", endColorstr="#ffffff", GradientType=1 );
+  margin: 5px;
+  font-size: 19px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 0.8s;
+}
+.why-powpow .why-content .check-our-lessons .link-to-sits-shop .check {
+  margin-right: 3px;
+  width: 15px;
+}
+.why-powpow .why-content .check-our-lessons .link-to-sits-shop:hover {
+  transform: scale(0.9);
+  background-color: white;
+  color: black;
+}
+.why-powpow .why-img {
+  order: 1;
+}
+.why-powpow .why-img img {
+  width: 100%;
+  height: 300px;
+}
+
+.lessons-road {
+  margin-top: 70px;
+}
+.lessons-road h2 {
+  font-family: "Bely Display", sans-serif;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  word-spacing: 4px;
+  font-size: 22px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.lessons-road h2 .desktop-break {
+  display: none;
+}
+.lessons-road .road-img {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.lessons-road .road-img img {
+  width: 25%;
+  padding: 10px;
+  box-shadow: 0px 0px 15px #cddfe9;
+  overflow: hidden;
+  transition: all 0.8s;
+}
+.lessons-road .road-img img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.lessons-road .road-img .othermaterial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-top-left-radius: 20px;
+  height: 110px;
+  width: 20%;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.lessons-road .road-img .othermaterial a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: black;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 19px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.lessons-road .road-img .othermaterial:hover {
+  transform: scale(0.9);
+  border: 3px solid black;
+}
+
+@media (max-width: 500px) {
+  .become-instructor .sits-head h1 span {
+    display: block;
+  }
+}
+@media (min-width: 500px) {
+  .become-instructor .programm-block {
+    margin-left: 72px;
+    margin-right: 72px;
+  }
+  .become-instructor .programm-block .all-blocks .image-block {
+    display: none;
+  }
+  .become-instructor .programm-block .all-blocks .image-block-medium {
+    display: block;
+  }
+}
+@media (min-width: 590px) {
+  .modal {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10000000000000000;
+    padding-bottom: 20px;
+  }
+  .modal img {
+    width: 45vw;
+  }
+  .modal .close {
+    top: 60px;
+  }
+  .modal2 img {
+    width: 35%;
+  }
+  .modal3 img {
+    width: 65%;
+  }
+  .lessons-road h2 .mobile-break {
+    display: none;
+  }
+  .lessons-road h2 .desktop-break {
+    display: inline;
+  }
+}
+@media (min-width: 620px) {
+  .why-powpow .why-img img {
+    height: 450px;
+  }
+}
+@media (min-width: 780px) {
+  .become-instructor .programm-block .all-blocks .image-block {
+    display: none;
+  }
+  .become-instructor .programm-block .all-blocks .image-block-medium {
+    display: none;
+  }
+  .become-instructor .programm-block .all-blocks .image-block-xl {
+    display: block;
+  }
+}
+@media (min-width: 980px) {
+  .become-instructor .show-details .show-details-btn {
+    padding: 20px;
+  }
+  .become-instructor .programm-block {
+    padding-bottom: 0;
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  .become-instructor .programm-block .all-blocks {
+    display: flex;
+    width: 100%;
+  }
+  .become-instructor .programm-block .all-blocks .image-block-xl {
+    display: none;
+  }
+  .become-instructor .programm-block .all-blocks .img-container {
+    display: flex;
+    overflow: hidden;
+  }
+  .become-instructor .programm-block .all-blocks .img-container .image-block-xl-two {
+    display: block;
+    transition: transform 2s;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content {
+    width: 75%;
+    margin-top: 20px;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content .top-row {
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(213, 213, 213);
+    font-weight: 800;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content .top-row .row-name {
+    width: 50%;
+    margin-left: 15px;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content .top-row .row-place-date {
+    width: 25%;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content .top-row .row-reservation {
+    width: 25%;
+    text-align: end;
+    margin-right: 10px;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content .details-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 7px;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content .details-info .title-programm {
+    width: 50%;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content .details-info .title-programm h2 {
+    color: #000000;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content .details-info .options-programm {
+    display: flex;
+    justify-content: space-between;
+    width: 52%;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content .details-info .options-programm .date-where {
+    display: flex;
+    flex-direction: column;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content .details-info .options-programm .date-where .place {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 15px;
+    font-size: 22px;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content .details-info .options-programm .date-where .date {
+    margin-bottom: 0px;
+    font-size: 22px;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content .details-info .options-programm a {
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 30px;
+    color: black;
+    background-color: #cddfe9;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content .description-programm {
+    padding-right: 50px;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content .description-programm .images-resort .logo-bsa {
+    width: 150px;
+    height: 150px;
+  }
+  .become-instructor .programm-block .all-blocks .blocks-content .description-programm .images-resort .maps-bsa {
+    width: 200px;
+    height: 150px;
+  }
+  .become-instructor .programm-block .all-blocks .buttons-to-slider {
+    position: relative;
+    left: -150px;
+    top: 320px;
+    width: 0;
+    height: 70px;
+  }
+  .become-instructor .programm-block .all-blocks .buttons-to-slider .left-btn button,
+  .become-instructor .programm-block .all-blocks .buttons-to-slider .right-btn button {
+    padding: 10px;
+    height: 40px;
+    border: 3px solid #ffffff;
+    color: #0097d0;
+  }
+  .become-instructor .programm-block .all-blocks .buttons-to-slider .left-btn .btn-dscrb,
+  .become-instructor .programm-block .all-blocks .buttons-to-slider .right-btn .btn-dscrb {
+    width: 100px;
+  }
+  .why-powpow {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .why-powpow .why-content {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    order: 1;
+    width: 65%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 165px;
+    box-shadow: 18px 21px 0px 1px #cddfe9;
+  }
+  .why-powpow .why-content p {
+    text-align: justify;
+  }
+  .why-powpow .why-content .why-head-mob {
+    display: none;
+  }
+  .why-powpow .why-content .why-head-desk {
+    display: block;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    color: #0097d0;
+    letter-spacing: 1px;
+    font-family: "Bely Display", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .why-powpow .why-content .why-img-content {
+    margin-top: 30px;
+    overflow: hidden;
+  }
+  .why-powpow .why-content .why-img-content img {
+    transition: all 1s;
+  }
+  .why-powpow .why-content .why-img-content img:hover {
+    filter: none;
+    transform: scale(1.1);
+  }
+  .why-powpow .why-img {
+    order: 2;
+  }
+  .why-powpow .why-img img {
+    width: 400px;
+    height: 250px;
+    margin-left: -160px;
+  }
+}
+@media (min-width: 1325px) {
+  .become-instructor .programm-block .all-blocks .blocks-content .details-info .options-programm .date-where {
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=Be-instructor-lessons-sits.css.map */

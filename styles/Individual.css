@@ -1,0 +1,91 @@
+.snow-pow-class {
+  margin-top: 50px;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+.snow-pow-class .head-spc {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.snow-pow-class .head-spc h2 {
+  text-align: center;
+  font-size: 22px;
+  color: #0097d0;
+}
+.snow-pow-class .head-spc h1 {
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  font-size: black;
+  z-index: 1;
+}
+.snow-pow-class .spc-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.snow-pow-class .spc-content .spc-logo {
+  width: 100%;
+  margin-top: 25px;
+  box-shadow: 0px 0px 125px #0097d0;
+}
+.snow-pow-class .spc-content .spc-txt {
+  padding: 12px 9px;
+  margin-right: 6px;
+  margin-left: 6px;
+  margin-bottom: 25px;
+  font-size: 17px;
+}
+.snow-pow-class .spc-content .spc-txt .spc-txt-main {
+  margin-top: -55px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: black;
+  background-color: #ffffff;
+}
+.snow-pow-class .spc-content .spc-txt p,
+.snow-pow-class .spc-content .spc-txt ul {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+.snow-pow-class .spc-content .spc-txt ul li {
+  margin-left: 28px;
+}
+
+@media (min-width: 850px) {
+  .snow-pow-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .snow-pow-class .spc-content {
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+  .snow-pow-class .spc-content .spc-logo {
+    margin-top: 0;
+    order: 2;
+    margin-right: 40px;
+    height: 200px;
+    width: 200px;
+    margin-left: -100px;
+  }
+  .snow-pow-class .spc-content .spc-txt {
+    border: 1px solid black;
+    border-top-left-radius: 20px;
+    margin-bottom: 0;
+  }
+  .snow-pow-class .spc-content .spc-txt .spc-txt-main {
+    margin-top: 0;
+  }
+  .snow-pow-class .spc-content .spc-txt p {
+    padding-right: 150px;
+  }
+}/*# sourceMappingURL=Individual.css.map */
